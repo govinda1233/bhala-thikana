@@ -8,7 +8,7 @@
     <style>
         body {
             font-family: 'Noto Sans Devanagari', sans-serif;
-            background-color: #fff; /* White background for contrast */
+            background-color: #fff;
             color: #333;
             margin: 0;
             padding: 0;
@@ -16,9 +16,9 @@
         .header {
             text-align: center;
             padding: 20px;
-            background-color: #ff2e79; /* Hot pink header */
+            background-color: #ff2e79;
             color: white;
-            border-bottom: 5px solid #d91c5d; /* Darker pink border */
+            border-bottom: 5px solid #d91c5d;
         }
         h1 {
             font-size: 3.5em;
@@ -27,7 +27,7 @@
         }
         h2 {
             text-align: center;
-            color: #d91c5d; /* Softer dark pink for section headers */
+            color: #d91c5d;
             margin: 20px 0;
             font-size: 2.5em;
         }
@@ -42,7 +42,7 @@
             border-radius: 10px;
             background-color: #ffffff;
             box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-            border-left: 10px solid #d91c5d; /* Dark pink border for emphasis */
+            border-left: 10px solid #d91c5d;
         }
         .members {
             display: grid;
@@ -57,15 +57,15 @@
             padding: 15px;
             text-align: center;
             transition: transform 0.3s, box-shadow 0.3s;
-            border: 2px solid #ff2e79; /* Hot pink border */
+            border: 2px solid #ff2e79;
         }
         .member:hover {
             transform: scale(1.05);
             box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
-            border-color: #d91c5d; /* Darker pink border on hover */
+            border-color: #d91c5d;
         }
         .member img {
-            width: 100%; /* Full width for responsive design */
+            width: 100%;
             height: auto;
             border-radius: 10px;
             cursor: pointer;
@@ -77,23 +77,23 @@
             box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
             text-align: center;
             margin: 40px 0;
-            border: 2px solid #ff2e79; /* Hot pink border */
+            border: 2px solid #ff2e79;
         }
         .contact h2 {
-            color: #d91c5d; /* Softer dark pink for contact header */
+            color: #d91c5d;
             margin-bottom: 20px;
         }
         .contact p {
             margin: 5px 0;
         }
         .contact a {
-            color: #ff2e79; /* Hot pink links */
+            color: #ff2e79;
             text-decoration: none;
             font-weight: bold;
         }
         .contact a:hover {
             text-decoration: underline;
-            color: #d91c5d; /* Darker pink on hover */
+            color: #d91c5d;
         }
         .modal {
             display: none;
@@ -145,7 +145,7 @@
     <div class="content">
         <div class="history">
             <h2>इतिहास</h2>
-            <p>पुशतेनी भाला  ठिकाना की स्थापना 2020 में शिवपाल जी चौना द्वारा की गई थी। यह स्थान सदियों पुरानी परंपराओं को संजोए हुए है और स्थानीय समुदाय में एक महत्वपूर्ण भूमिका निभाता है। यहाँ पर समुदाय के लोगों को एकत्रित किया जाता है और कई सांस्कृतिक कार्यक्रमों का आयोजन किया जाता है। यह स्थान सभी के लिए एक स्वागत योग्य वातावरण प्रदान करता है।</p>
+            <p>पुशतेनी भाला  ठिकाना की स्थापना 2020 में शिवपाल जी चौहान  द्वारा की गई थी। यह स्थान सदियों पुरानी परंपराओं को संजोए हुए है और स्थानीय समुदाय में एक महत्वपूर्ण भूमिका निभाता है। यहाँ पर समुदाय के लोगों को एकत्रित किया जाता है और कई सांस्कृतिक कार्यक्रमों का आयोजन किया जाता है। यह स्थान सभी के लिए एक स्वागत योग्य वातावरण प्रदान करता है।</p>
         </div>
 
         <div class="owner">
@@ -155,67 +155,14 @@
 
         <h2>सदस्यों की गैलरी</h2>
         <div class="members">
+            <!-- Existing members here -->
+            
+            <!-- New member Vishal Thakur -->
             <div class="member">
-                <img src="shivpal.jpg" alt="Shivpal Ji" onclick="openModal(this.src)" />
-                <h3>शिवपाल जी चौना</h3>
-                <p>संस्थापक और बकरी फार्म मालिक</p>
-                <p>शिवपाल जी का सपना है कि वे स्थानीय कृषि को आत्मनिर्भर बनाएं। वे हमेशा अपने ज्ञान और अनुभव को साझा करने के लिए तत्पर रहते हैं, जिससे युवा पीढ़ी को भी प्रोत्साहन मिलता है।</p>
-            </div>
-
-            <div class="member">
-                <img src="shailendra.jpg" alt="Shailendra Ji" onclick="openModal(this.src)" />
-                <h3>शैलेन्द्र जी</h3>
-                <p>बजाज फाइनेंस के प्रबंधक</p>
-                <p>शैलेन्द्र जी वित्तीय क्षेत्र में एक अनुभवी विशेषज्ञ हैं। वे हमेशा ग्राहकों की वित्तीय सुरक्षा के लिए मेहनत करते हैं और स्थानीय व्यापारों को सफल बनाने में मदद करते हैं।</p>
-            </div>
-
-            <div class="member">
-                <img src="narendra.jpg" alt="Narendra Thakur" onclick="openModal(this.src)" />
-                <h3>नरेन्द्र ठाकुर</h3>
-                <p>SSC कर्मचारी</p>
-                <p>नरेन्द्र जी शिक्षा क्षेत्र में काम करते हैं और वे हमेशा छात्रों को बेहतर भविष्य के लिए मार्गदर्शन करते हैं। उनकी मेहनत और समर्पण ने कई जीवन को बेहतर बनाने में मदद की है।</p>
-            </div>
-
-            <div class="member">
-                <img src="devendra.jpg" alt="Devendra Thakur" onclick="openModal(this.src)" />
-                <h3>देवेन्द्र ठाकुर</h3>
-                <p>TCS कर्मचारी</p>
-                <p>देवेन्द्र जी तकनीकी क्षेत्र में काम कर रहे हैं। वे अपनी विशेषज्ञता का उपयोग करके नई तकनीकों को अपनाने में मदद करते हैं, जिससे लोगों का जीवन और आसान हो जाता है।</p>
-            </div>
-
-            <div class="member">
-                <img src="shailendra_bhati.jpg" alt="Shailendra Bhati" onclick="openModal(this.src)" />
-                <h3>शैलेन्द्र भाटी</h3>
-                <p>चिकित्सा व्यवसायी</p>
-                <p>शैलेन्द्र जी स्वास्थ्य सेवा के प्रति अपने समर्पण के लिए जाने जाते हैं। वे समुदाय में स्वस्थ जीवनशैली को बढ़ावा देने के लिए कई कार्यक्रम आयोजित करते हैं।</p>
-            </div>
-
-            <div class="member">
-                <img src="govind.jpg" alt="Govind Rajput" onclick="openModal(this.src)" />
-                <h3>गोविन्द राजपूत</h3>
-                <p>MSC बायोइन्फॉर्मेटिक्स</p>
-                <p>गोविन्द जी बायोइन्फॉर्मेटिक्स के क्षेत्र में काम कर रहे हैं। वे विज्ञान और तकनीकी के माध्यम से लोगों की स्वास्थ्य संबंधी समस्याओं का समाधान करने के लिए हमेशा तत्पर रहते हैं।</p>
-            </div>
-
-            <div class="member">
-                <img src="sounu.jpg" alt="Sounu Da Thakur" onclick="openModal(this.src)" />
-                <h3>सौणु दा ठाकुर</h3>
-                <p>संगिवी फूड्स</p>
-                <p>सौणु जी खाद्य उद्योग में उत्कृष्टता के लिए काम कर रहे हैं। उनका प्रयास है कि स्थानीय उत्पादों को बढ़ावा दिया जाए और हर व्यक्ति को स्वस्थ आहार मिले।</p>
-            </div>
-
-            <div class="member">
-                <img src="arjun.jpg" alt="Arjun Nikku" onclick="openModal(this.src)" />
-                <h3>अर्जुन निक्कू</h3>
-                <p>नर्सिंग में अध्ययनरत</p>
-                <p>अर्जुन जी स्वास्थ्य सेवा क्षेत्र में अपने करियर की शुरुआत कर रहे हैं। उनका लक्ष्य लोगों की सेवा करना और उन्हें स्वस्थ रखना है।</p>
-            </div>
-
-            <div class="member">
-                <img src="deepu.jpg" alt="Deepu" onclick="openModal(this.src)" />
-                <h3>दीपू</h3>
-                <p>जियो फाइनेंस सेवा में कार्यरत</p>
-                <p>दीपू जी वित्तीय सेवाओं में अपने कार्य से लोगों की मदद कर रहे हैं। उनका मानना है कि वित्तीय साक्षरता से लोगों का जीवन स्तर बेहतर हो सकता है।</p>
+                <img src="vishal.jpg" alt="Vishal Thakur" onclick="openModal(this.src)" />
+                <h3>विशाल ठाकुर</h3>
+                <p>MCA डेवलपर (पुणे)</p>
+                <p>विशाल जी एक अनुभवी सॉफ़्टवेयर डेवलपर हैं जो पुणे में कार्यरत हैं। वे अपने कौशल का उपयोग कर नई तकनीकों को विकसित करते हैं, जिससे लोगों के जीवन को और सुगम बनाया जा सके।</p>
             </div>
         </div>
 
